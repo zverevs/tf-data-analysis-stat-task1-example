@@ -2,10 +2,12 @@ import pandas as pd
 import numpy as np
 
 
-chat_id = 123456 # Ваш chat ID, не меняйте название переменной
+chat_id = 235789175 # Ваш chat ID, не меняйте название переменной
 
 def solution(x: np.array) -> float:
-    # Измените код этой функции
+    e = -17 + np.exp(1) 
+    m1 = np.mean(x)  
+    a = (m1 - e) / 10  
     # Это будет вашим решением
     # Не меняйте название функции и её аргументы
-    return x.mean() # Ваш ответ
+    return a
