@@ -9,4 +9,4 @@ def solution(x: np.array) -> float:
 
     # Это будет вашим решением
     # Не меняйте название функции и её аргументы
-    return (x.mean() + 16) / t*2
+    return (x.mean() + 16) / t
